@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+
+
+.product{
+    height: 150px;
+    min-width: 200px;
+    background-color: purple;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px
+
+}
+
+h1,h2,p{
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
